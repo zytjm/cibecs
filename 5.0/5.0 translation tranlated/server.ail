@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DICTIONARY type="multilanguage" ignore="en">
+	<ENTRY id="AgreementText">
+		<STRING lang="en"
+		        value="D:\Workspace\CIB\continuity\branches\feature-i18n-l10n\continuity\installer\installer-server\src\main\installer\resources\eula.rtf"/>
+		<STRING lang="zh" value="eula_zh.rtf"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.DataDirDialog#Description">
+		<STRING lang="en" value="This is the location where the backup data will be stored."/>
+		<STRING lang="zh" value="这是备份数据将要存放的位置。"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.DataDirDialog#Title">
+		<STRING lang="en" value="Select Backup Data Location"/>
+		<STRING lang="zh" value="请选择备份数据的位置"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.DataDirDlg#Text">
+		<STRING lang="en"
+		        value="Please specify where you would like backup data to be stored or click &quot;Next&quot; to use the default location. The backup data location can either be a local folder or a folder on a UNC path and requires write permission."/>
+		<STRING lang="zh"
+		        value="请您选择将要存储备份数据的位置，或者直接点击“下一步”使用默认位置。备份数据的位置可以是一个本地文件夹，也可以是符合统一命名约定（UNC）的一个路径，这需要写入权限。"/>
+	</ENTRY>
+	<ENTRY id="Dialog.DataDirDialog">
+		<STRING lang="en" value="[ProductName] [Setup]"/>
+		<STRING lang="zh" value="[ProductName][Setup]"/>
+	</ENTRY>
+	<ENTRY id="Property.ARPCOMMENTS">
+		<STRING lang="en"
+		        value="This installer database contains the logic and data required to install [|ProductName]."/>
+		<STRING lang="zh"
+		        value="本安装数据库包含安装[|ProductName]所必须的逻辑数据和资料。"/>
+	</ENTRY>
+	<ENTRY id="Property.Manufacturer">
+		<STRING lang="en" value="Cibecs"/>
+		<STRING lang="zh" value="Cibecs"/>
+	</ENTRY>
+	<ENTRY id="Property.ProductName">
+		<STRING lang="en" value="Cibecs Continuity Server"/>
+		<STRING lang="zh" value="Cibecs服务器"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.PortsDialog#Description">
+		<STRING lang="en" value="These are the ports that will be used for User Agents and the Control Center to connect to."/>
+		<STRING lang="zh" value="这些端口将用于客户端与控制中心的连接。"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.PortsDialog#Header">
+		<STRING lang="en" value="Please specify the ports you would like the Continuity Server to use or click &quot;Next&quot; to use the default ports. Enter unique ports if you have other services on this machine that make use of the default ports."/>
+		<STRING lang="zh" value="请指定你想要服务器运行的端口，或者点击&quot;下一步&quot;使用默认端口。如果您有其他服务在这台机器上使用默认端口，请手动输入一个唯一的端口。"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.PortsDialog#ServerPort">
+		<STRING lang="en" value="Server Port:"/>
+		<STRING lang="zh" value="服务器端口："/>
+	</ENTRY>
+	<ENTRY id="Control.Text.PortsDialog#Title">
+		<STRING lang="en" value="Set Backup Server Ports"/>
+		<STRING lang="zh" value="设置备份服务器端口："/>
+	</ENTRY>
+	<ENTRY id="Control.Text.PortsDialog#UpdatesPort">
+		<STRING lang="en" value="Updates Port:"/>
+		<STRING lang="zh" value="更新端口："/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#Description">
+		<STRING lang="en" value="The user account that will be used by the server service."/>
+		<STRING lang="zh" value="用于服务器端服务的用户账号。"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#ServiceCredentialsDlgText_1">
+		<STRING lang="en" value="Password:"/>
+		<STRING lang="zh" value="密码："/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#ServiceCredentialsDlgText_2">
+		<STRING lang="en" value="Please specify the account you would like the Continuity Server service to run as."/>
+		<STRING lang="zh" value="请指定您想要运行服务器服务的帐号。"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#ServiceCredentialsDlg_Description">
+		<STRING lang="en" value="Please note: should the provided data location be a UNC path which requires Administrator privileges, please enter the required Administrator privileges for the Continuity Server&apos;s service."/>
+		<STRING lang="zh" value="请注意：应提供数据的地址应该是一个符合通用命名规则的路径需要管理员特权，请给服务器服务输入管理员特权。"/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#ServiceCredentialsDlg_LabelUsername">
+		<STRING lang="en" value="Username:"/>
+		<STRING lang="zh" value="用户名称："/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#ServiceCredentialsDlg_RadioGroup">
+		<STRING lang="en" value="Log on as:"/>
+		<STRING lang="zh" value="登录为："/>
+	</ENTRY>
+	<ENTRY id="Control.Text.ServiceCredentialsDlg#Title">
+		<STRING lang="en" value="Set Service Credentials"/>
+		<STRING lang="zh" value="设置服务器证书"/>
+	</ENTRY>
+	<ENTRY id="Dialog.PortsDialog">
+		<STRING lang="en" value="[ProductName] [Setup]"/>
+		<STRING lang="zh" value="[ProductName][Setup]"/>
+	</ENTRY>
+	<ENTRY id="Dialog.ServiceCredentialsDlg">
+		<STRING lang="en" value="[ProductName] [Setup]"/>
+		<STRING lang="zh" value="[ProductName][Setup]"/>
+	</ENTRY>
+	<ENTRY id="RadioButton.Text.SERVICECREDENTIALSDL_RADIOGROUP#1">
+		<STRING lang="en" value="Local System account"/>
+		<STRING lang="zh" value="本地系统帐号"/>
+	</ENTRY>
+	<ENTRY id="RadioButton.Text.SERVICECREDENTIALSDL_RADIOGROUP#2">
+		<STRING lang="en" value="This account:"/>
+		<STRING lang="zh" value="该帐号："/>
+	</ENTRY>
+</DICTIONARY>
